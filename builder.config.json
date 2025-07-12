@@ -1,0 +1,6 @@
+{
+  "command": "npm run dev",
+  "serverUrl": "https://builder.io/app/projects/a62cead1f01b48ecab584a67512759d5/main",
+  "authenticateProxy": false,
+  "commitMode": "commits"
+}
