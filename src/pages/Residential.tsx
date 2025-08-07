@@ -10,7 +10,7 @@ const Residential = () => {
             {/* Hero Image */}
             <div className="flex-1 min-w-[400px] flex justify-center items-center bg-[#67b6cd] border border-[#23276a] rounded-xl p-8">
               <img
-                src="https://placehold.co/331x331/67B6CD/67B6CD"
+                src="https://i.postimg.cc/1tZ5SKZP/Depth-6-Frame-2.png"
                 alt="Water Analytics Dashboard"
                 className="w-full max-w-[331px] h-auto"
               />
@@ -407,7 +407,7 @@ const Residential = () => {
           <div className="mb-8">
             <div className="w-full h-[497px] bg-[#63a6a7] rounded-xl overflow-hidden">
               <img
-                src="https://placehold.co/944x497/63A6A7/63A6A7"
+                src="https://i.postimg.cc/xTKrDS1k/freepik-background-48023-1-1.png"
                 alt="Analytics Dashboard"
                 className="w-full h-full object-cover"
               />
@@ -514,7 +514,7 @@ const Residential = () => {
               {/* Apartment Living */}
               <div className="space-y-3">
                 <img
-                  src="https://placehold.co/301x169/4A90E2/4A90E2"
+                  src="https://i.postimg.cc/zXdCfyB4/Depth-7-Frame-0-2.png"
                   alt="Apartment Living"
                   className="w-full h-[169px] object-cover rounded-xl"
                 />
@@ -532,7 +532,7 @@ const Residential = () => {
               {/* Bungalow Bliss */}
               <div className="space-y-3">
                 <img
-                  src="https://placehold.co/301x169/7ED321/7ED321"
+                  src="https://i.postimg.cc/wjZDhnDV/Depth-7-Frame-0-3.png"
                   alt="Bungalow Bliss"
                   className="w-full h-[169px] object-cover rounded-xl"
                 />
@@ -550,7 +550,7 @@ const Residential = () => {
               {/* Gated Community */}
               <div className="space-y-3">
                 <img
-                  src="https://placehold.co/301x170/50E3C2/50E3C2"
+                  src="https://i.postimg.cc/k4d8H81R/Depth-7-Frame-0-4.png"
                   alt="Gated Community"
                   className="w-full h-[170px] object-cover rounded-xl"
                 />
@@ -606,7 +606,7 @@ const Residential = () => {
           <div className="mb-8">
             <div className="w-full h-[619px] bg-[#F0F8FF] rounded-xl overflow-hidden">
               <img
-                src="https://placehold.co/944x619/F0F8FF/F0F8FF"
+                src="https://i.postimg.cc/RhStSmzM/Depth-6-Frame-0-10.png"
                 alt="Family at Home"
                 className="w-full h-full object-cover"
               />

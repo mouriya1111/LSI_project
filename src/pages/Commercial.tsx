@@ -11,7 +11,7 @@ const Commercial = () => {
             {/* Hero Image */}
             <div className="w-full lg:min-w-[400px] h-[316px] rounded-xl overflow-hidden">
               <img
-                src="https://placehold.co/400x316/7FB3D3/7FB3D3"
+                src="https://i.postimg.cc/NGXGMS0t/Depth-6-Frame-0-11.png"
                 alt="Commercial building with modern architecture"
                 className="w-full h-full object-cover bg-[#7FB3D3]"
               />
@@ -222,7 +222,13 @@ const Commercial = () => {
 
           <div className="px-4">
             <div className="flex flex-col lg:flex-row items-center rounded-xl">
-              <div className="w-full lg:flex-1 h-64 bg-[#2C3E50] rounded-xl"></div>
+              <div className="w-full lg:flex-1 h-64 bg-[#2C3E50] rounded-xl">
+                <img
+                src="https://i.postimg.cc/VvXzVrhv/Depth-6-Frame-0-12.png"
+                alt="Commercial building with modern architecture"
+
+              />
+              </div>
               <div className="w-full lg:flex-1 lg:min-w-[288px] p-4 flex flex-col justify-center gap-1">
                 <h3 className="font-inter font-bold text-lg text-[#121417] leading-[23px]">
                   Gain Insights into Your Water Consumption
@@ -250,7 +256,13 @@ const Commercial = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               {/* Commercial Real Estate */}
               <div className="space-y-4">
-                <div className="h-[169px] bg-[#8B9DC3] rounded-xl"></div>
+                <div className="h-[169px]  rounded-xl">
+                  <img
+                src="https://i.postimg.cc/VvXzVrhv/Depth-6-Frame-0-12.png"
+                alt="Commercial real estate"
+
+              />
+                </div>
                 <div>
                   <h3 className="font-inter font-medium text-base text-[#121417] leading-6">
                     Commercial Real Estate
@@ -264,7 +276,14 @@ const Commercial = () => {
 
               {/* Industrial Manufacturing */}
               <div className="space-y-4">
-                <div className="h-[169px] bg-[#4A5D23] rounded-xl"></div>
+                <div className="h-[169px]  rounded-xl">
+                  <img
+                src="https://i.postimg.cc/mk3GwxcF/Depth-7-Frame-0-6.png
+                "
+                alt="Commercial building with modern architecture"
+
+              />
+                </div>
                 <div>
                   <h3 className="font-inter font-medium text-base text-[#121417] leading-6">
                     Industrial Manufacturing
@@ -278,7 +297,13 @@ const Commercial = () => {
 
               {/* Agriculture */}
               <div className="space-y-4">
-                <div className="h-[169px] bg-[#228B22] rounded-xl"></div>
+                <div className="h-[169px]  rounded-xl">
+                   <img
+                src="https://i.postimg.cc/sf5yyWnD/image-22-1.png"
+                alt="Commercial building with modern architecture"
+
+              />
+                </div>
                 <div>
                   <h3 className="font-inter font-medium text-base text-[#121417] leading-6">
                     Agriculture
@@ -472,8 +497,14 @@ const Commercial = () => {
                   Priya Sharma, Property Manager at Green Spaces Inc.
                 </p>
               </div>
-              <div className="w-full lg:flex-1 h-[171px] bg-[#D4A574] rounded-xl"></div>
+              <div className="w-full lg:flex-1 h-[171px] rounded-xl">
+                 <img
+                src="https://i.postimg.cc/wjjdhG97/Depth-6-Frame-1-15.png"
+                alt="Commercial building with modern architecture"
+              />
+              </div>
             </div>
+            
           </div>
 
           <div className="px-4 py-3">

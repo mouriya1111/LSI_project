@@ -10,13 +10,14 @@ const AboutUs = () => {
             {/* Hero Content */}
             <div className="flex-1 min-w-[400px] space-y-8">
               <div className="space-y-2">
-                <h1 className="font-inter text-4xl lg:text-5xl font-black text-[#141414] leading-[60px] tracking-[-2px]">
-                  Reimagining Water Management for a Better Future
-                </h1>
-                <p className="font-inter text-base text-[#141414] leading-6">
-                  Transforming water management with innovative technology for a
-                  sustainable future.
-                </p>
+                <img
+                    src="https://i.postimg.cc/YCcZq2SN/Depth-6-Frame-0-14.png"
+                    alt="Community Smart Meter Setup"
+                    className="w-full h-72 object-cover rounded-xl mb-6"
+                  />
+               <p className="font-inter text-base font-bold text-[#141414] leading-6">
+  Transforming water management with innovative technology for a sustainable future.
+</p>
               </div>
             </div>
 
@@ -46,7 +47,7 @@ const AboutUs = () => {
                 {/* Main content */}
                 <div className="relative">
                   <img
-                    src="https://placehold.co/716x288/4a90e2/4a90e2"
+                    src="https://i.postimg.cc/SxM4Dtnd/img-2.png"
                     alt="Community Smart Meter Setup"
                     className="w-full h-72 object-cover rounded-xl mb-6"
                   />
@@ -210,7 +211,7 @@ const AboutUs = () => {
               {/* Team Member 1 */}
               <div className="text-center space-y-4">
                 <img
-                  src="https://placehold.co/131x131/8b7355/8b7355"
+                  src="https://i.postimg.cc/cHm0fgvN/Depth-8-Frame-0.png"
                   alt="Liam Carter"
                   className="w-32 h-32 rounded-full mx-auto"
                 />
@@ -225,7 +226,7 @@ const AboutUs = () => {
               {/* Team Member 2 */}
               <div className="text-center space-y-4">
                 <img
-                  src="https://placehold.co/131x131/d4a574/d4a574"
+                  src="https://i.postimg.cc/154sNzPL/Depth-8-Frame-0-1.png"
                   alt="Isabella Bennett"
                   className="w-32 h-32 rounded-full mx-auto"
                 />
@@ -242,7 +243,7 @@ const AboutUs = () => {
               {/* Team Member 3 */}
               <div className="text-center space-y-4">
                 <img
-                  src="https://placehold.co/131x131/7a6b5d/7a6b5d"
+                  src="https://i.postimg.cc/rp2kbCWk/Depth-8-Frame-0-2.png"
                   alt="Owen Thompson"
                   className="w-32 h-32 rounded-full mx-auto"
                 />
@@ -259,7 +260,7 @@ const AboutUs = () => {
               {/* Team Member 4 */}
               <div className="text-center space-y-4">
                 <img
-                  src="https://placehold.co/131x131/c49a6c/c49a6c"
+                  src="https://i.postimg.cc/XJQ6pRPj/Depth-8-Frame-0-3.png"
                   alt="Chloe Davis"
                   className="w-32 h-32 rounded-full mx-auto"
                 />
@@ -325,22 +326,22 @@ const AboutUs = () => {
 
             <div className="grid md:grid-cols-4 gap-6">
               <img
-                src="https://placehold.co/223x150/f4e4a6/f4e4a6"
+                src="https://i.postimg.cc/kgzQdDX9/Depth-7-Frame-0-7.png"
                 alt="Municipalities"
                 className="w-full h-38 object-cover rounded-lg"
               />
               <img
-                src="https://placehold.co/223x150/8db4d8/8db4d8"
+                src="https://i.postimg.cc/tTHFYfxM/Depth-6-Frame-1-16.png"
                 alt="Real Estate"
                 className="w-full h-38 object-cover rounded-lg"
               />
               <img
-                src="https://placehold.co/223x150/4a90e2/4a90e2"
+                src="https://i.postimg.cc/NFdXCjP3/Depth-6-Frame-2-1.png"
                 alt="Water Utilities"
                 className="w-full h-38 object-cover rounded-lg"
               />
               <img
-                src="https://placehold.co/223x150/7cb342/7cb342"
+                src="https://i.postimg.cc/kXh8xDS8/Depth-6-Frame-3.png"
                 alt="Agriculture"
                 className="w-full h-38 object-cover rounded-lg"
               />
@@ -354,51 +355,38 @@ const AboutUs = () => {
           </div>
 
           {/* Platform Demo */}
-          <div className="mb-16">
-            <h2 className="font-inter text-2xl font-bold text-[#141414] leading-7 mb-8">
-              Platform Demo
-            </h2>
+<div className="mb-16">
+  <h2 className="font-inter text-2xl font-bold text-[#141414] leading-7 mb-8">
+    Platform Demo
+  </h2>
+  <div className="rounded-xl overflow-hidden">
+    <img
+      src="https://i.postimg.cc/MTxjWBkk/Depth-5-Frame-0-1.png"
+      alt="Platform Demo"
+      className="w-full h-auto object-cover"
+    />
+  </div>
+</div>
 
-            <div className="bg-gradient-to-br from-[#67B6CD] to-[#4A90E2] rounded-xl p-20 flex items-center justify-center">
-              <button className="bg-white rounded-full p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <svg
-                  width="17"
-                  height="20"
-                  viewBox="0 0 17 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fillRule="evenodd"
-                    clipRule="evenodd"
-                    d="M16.5 10C16.5013 10.518 16.2308 10.9987 15.7875 11.2666L2.28 19.5297C1.81627 19.8137 1.23518 19.8244 0.76125 19.5578C0.291875 19.2954 0.000784397 18.7999 0 18.2622V1.73781C0.000784397 1.20005 0.291875 0.704625 0.76125 0.442188C1.23518 0.175588 1.81627 0.186349 2.28 0.470313L15.7875 8.73344C16.2308 9.00131 16.5013 9.48202 16.5 10Z"
-                    fill="#141414"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
+{/* Join the Movement */}
+<div className="mb-16">
+  <div className="text-center space-y-8 py-20">
+    <div className="space-y-4">
+      <h2 className="font-inter text-3xl font-bold text-[#141414] leading-[45px] tracking-[-1px] max-w-[720px] mx-auto">
+        Join the Movement
+      </h2>
+      <p className="font-inter text-base text-[#141414] leading-6">
+        Interested in joining our team or partnering with us? We're
+        always looking for talented individuals and organizations to
+        collaborate with.
+      </p>
+    </div>
 
-          {/* Join the Movement */}
-          <div className="mb-16">
-            <div className="text-center space-y-8 py-20">
-              <div className="space-y-4">
-                <h2 className="font-inter text-3xl font-bold text-[#141414] leading-[45px] tracking-[-1px] max-w-[720px] mx-auto">
-                  Join the Movement
-                </h2>
-                <p className="font-inter text-base text-[#141414] leading-6">
-                  Interested in joining our team or partnering with us? We're
-                  always looking for talented individuals and organizations to
-                  collaborate with.
-                </p>
-              </div>
-
-              <button className="bg-[#1282eb] text-white rounded-xl px-6 py-3 font-inter font-bold text-base hover:bg-[#0066cc] transition-colors">
-                Inquire About Opportunities
-              </button>
-            </div>
-          </div>
-
+    <button className="bg-[#1282eb] text-white rounded-xl px-6 py-3 font-inter font-bold text-base hover:bg-[#0066cc] transition-colors">
+      Inquire About Opportunities
+    </button>
+  </div>
+</div>
           {/* Get in Touch */}
           <div className="text-center space-y-8 py-20">
             <div className="space-y-4">

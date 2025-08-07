@@ -10,7 +10,7 @@ const Contact = () => {
             {/* Hero Image */}
             <div className="flex-1 min-w-[400px]">
               <img
-                src="https://placehold.co/400x273/7dd3c0/7dd3c0"
+                src="https://i.postimg.cc/jSXDZmVN/Depth-6-Frame-0-13.png"
                 alt="Water management illustration"
                 className="w-full h-68 object-cover rounded-xl"
               />
@@ -76,9 +76,9 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="w-full lg:w-38">
+              <div className="w-18.5 lg:w-20">
                 <img
-                  src="https://placehold.co/150x91/c4c4c4/c4c4c4"
+                  src="https://i.postimg.cc/vH5g6D30/Depth-4-Frame-2-2.png"
                   alt="Office building"
                   className="w-full h-23 object-cover rounded-xl"
                 />
@@ -90,7 +90,7 @@ const Contact = () => {
           <div className="mb-12">
             <div className="w-full h-[553px] bg-[#e8e8e8] rounded-xl flex items-center justify-center">
               <img
-                src="https://placehold.co/944x553/e8e8e8/e8e8e8"
+                src="https://i.postimg.cc/ry3YQy56/Map-of-Birmingham-County.png"
                 alt="Map of Birmingham County"
                 className="w-full h-full object-cover rounded-xl"
               />

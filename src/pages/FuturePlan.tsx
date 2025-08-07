@@ -3,38 +3,57 @@ import Layout from "@/components/Layout";
 const FuturePlan = () => {
   return (
     <Layout>
-      <div className="min-h-screen bg-white">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-blue-50 to-white py-20">
-          <div className="max-w-6xl mx-auto px-6 text-center">
-            <h1 className="font-inter font-black text4xl md:text-5xl text-[#121417] leading-tight mb-5">
-              Empowering the Future of Water with AI & IoT
-            </h1>
-            <p className="font-inter font-normal text-xl text-[#61758a] max-w-3xl mx-auto leading-relaxed">
-              Discover how Blue Meter is pioneering the next generation of smart
-              water management through cutting-edge artificial intelligence and
-              Internet of Things technologies.
-            </p>
-          </div>
-        </section>
+     <div className="min-h-screen bg-white">
+  {/* Hero Section */}
+  <section className="bg-gradient-to-b from-blue-50 to-white py-20">
+    <div className="max-w-6xl mx-auto px-6">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
+        {/* Left Image */}
+        <div className="w-full md:w-1/2 flex justify-center">
+          <img
+            src="https://i.postimg.cc/VNMFJ7yh/Depth-6-Frame-0-9.png"
+            alt="Blue Meter"
+            className="w-[500px] h-auto"
+          />
+        </div>
 
+        {/* Right Text */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h1 className="font-inter font-black text4xl md:text-5xl text-[#121417] leading-tight mb-5">
+            Empowering the Future of Water with AI & IoT
+          </h1>
+          <p className="font-inter font-normal text-xl text-[#61758a] leading-relaxed">
+            Discover how Blue Meter is pioneering the next generation of smart
+            water management through cutting-edge artificial intelligence and
+            Internet of Things technologies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
         {/* Our Vision Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
-                Our Vision
-              </h2>
-              <p className="font-inter font-normal text-lg text-[#61758a] max-w-4xl mx-auto leading-relaxed">
-                We envision a world where every drop of water is intelligently
-                monitored, efficiently distributed, and sustainably managed.
-                Through the power of AI and IoT, we're building the
-                infrastructure for a water-secure future that serves
-                communities, businesses, and the planet.
-              </p>
-            </div>
-          </div>
-        </section>
+<section className="py-20 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
+        Our Vision
+      </h2>
+      <p className="font-inter font-normal text-lg text-[#61758a] max-w-4xl mx-auto leading-relaxed mb-10">
+        We envision a world where every drop of water is intelligently
+        monitored, efficiently distributed, and sustainably managed. Through
+        the power of AI and IoT, we're building the infrastructure for a
+        water-secure future that serves communities, businesses, and the planet.
+      </p>
+      <div className="flex justify-center">
+        <img
+          src="https://i.postimg.cc/9XBQ9fSp/Frame-11808811.png"
+          alt="Our Vision"
+          className="w-full max-w-5xl rounded-xl"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
         {/* AI & Machine Learning Section */}
         <section className="py-20 bg-gray-50">
@@ -123,648 +142,174 @@ const FuturePlan = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> 
+    {/* Automation & Control Section */}
+<section className="py-20 bg-gray-50">
+  <div className="max-w-3xl mx-auto px-6 text-center">
+    
+    {/* Heading */}
+    <h2 className="font-inter font-bold text-4xl text-[#121417] mb-4">
+      Automation & Control
+    </h2>
+    {/* Paragraph */}
+    <p className="font-inter font-normal text-lg text-[#61758a] mb-8 leading-relaxed">
+      Intelligent automation systems respond to real-time data, adjusting water flow,
+      pressure, and distribution to maintain optimal performance while reducing manual intervention.
+    </p>
 
-        {/* IoT Monitoring Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
-                  IoT Monitoring
-                </h2>
-                <p className="font-inter font-normal text-lg text-[#61758a] mb-8 leading-relaxed">
-                  Our extensive network of IoT sensors provides real-time
-                  insights into water quality, flow rates, pressure levels, and
-                  system performance across your entire infrastructure.
-                </p>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#1282eb] rounded-full flex items-center justify-center">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.5 3L4.5 8L2 5.5"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <span className="font-inter text-[#121417]">
-                      Real-time water quality monitoring
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#1282eb] rounded-full flex items-center justify-center">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.5 3L4.5 8L2 5.5"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <span className="font-inter text-[#121417]">
-                      Continuous flow and pressure tracking
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#1282eb] rounded-full flex items-center justify-center">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.5 3L4.5 8L2 5.5"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <span className="font-inter text-[#121417]">
-                      Automated leak detection and alerts
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="relative">
-                <div className="w-full h-80 bg-gradient-to-br from-blue-100 to-blue-200 rounded-xl flex items-center justify-center">
-                  <div className="text-center text-[#61758a]">
-                    <svg
-                      width="80"
-                      height="80"
-                      viewBox="0 0 80 80"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="mx-auto mb-4"
-                    >
-                      <circle
-                        cx="40"
-                        cy="40"
-                        r="30"
-                        stroke="#1282eb"
-                        strokeWidth="2"
-                        fill="none"
-                      />
-                      <circle
-                        cx="40"
-                        cy="40"
-                        r="20"
-                        stroke="#1282eb"
-                        strokeWidth="2"
-                        fill="none"
-                      />
-                      <circle
-                        cx="40"
-                        cy="40"
-                        r="10"
-                        stroke="#1282eb"
-                        strokeWidth="2"
-                        fill="none"
-                      />
-                      <circle cx="40" cy="40" r="3" fill="#1282eb" />
-                    </svg>
-                    <p className="font-inter font-medium">
-                      IoT Network Visualization
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    {/* Image */}
+    <div className="w-full h-96 rounded-xl overflow-hidden">
+      <img
+        src="https://i.postimg.cc/XYNTGj5T/Depth-6-Frame-0-17.png"
+        alt="Automation and Control"
+        className="w-full h-full object-cover"
+      />
+    </div>
 
-        {/* Automation & Control Section */}
-        <section className="py-20 bg-gray-50">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="relative order-2 lg:order-1">
-                <div className="w-full h-80 bg-gradient-to-br from-green-100 to-green-200 rounded-xl flex items-center justify-center">
-                  <div className="text-center text-[#61758a]">
-                    <svg
-                      width="80"
-                      height="80"
-                      viewBox="0 0 80 80"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="mx-auto mb-4"
-                    >
-                      <rect
-                        x="20"
-                        y="20"
-                        width="40"
-                        height="40"
-                        rx="8"
-                        stroke="#10b981"
-                        strokeWidth="2"
-                        fill="none"
-                      />
-                      <rect
-                        x="30"
-                        y="30"
-                        width="20"
-                        height="20"
-                        rx="4"
-                        fill="#10b981"
-                      />
-                      <circle cx="15" cy="25" r="3" fill="#10b981" />
-                      <circle cx="65" cy="25" r="3" fill="#10b981" />
-                      <circle cx="15" cy="55" r="3" fill="#10b981" />
-                      <circle cx="65" cy="55" r="3" fill="#10b981" />
-                    </svg>
-                    <p className="font-inter font-medium">
-                      Automated Control Systems
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="order-1 lg:order-2">
-                <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
-                  Automation & Control
-                </h2>
-                <p className="font-inter font-normal text-lg text-[#61758a] mb-8 leading-relaxed">
-                  Intelligent automation systems respond to real-time data,
-                  adjusting water flow, pressure, and distribution to maintain
-                  optimal performance while reducing manual intervention.
-                </p>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#10b981] rounded-full flex items-center justify-center">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.5 3L4.5 8L2 5.5"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <span className="font-inter text-[#121417]">
-                      Automated valve and pump control
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#10b981] rounded-full flex items-center justify-center">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.5 3L4.5 8L2 5.5"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <span className="font-inter text-[#121417]">
-                      Smart pressure regulation
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#10b981] rounded-full flex items-center justify-center">
-                      <svg
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M9.5 3L4.5 8L2 5.5"
-                          stroke="white"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    <span className="font-inter text-[#121417]">
-                      Emergency response protocols
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* UN Sustainable Development Goals Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
-                UN Sustainable Development Goals
-              </h2>
-              <p className="font-inter font-normal text-lg text-[#61758a] max-w-3xl mx-auto">
-                Blue Meter is committed to advancing the United Nations
-                Sustainable Development Goals through innovative water
-                management solutions.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-blue-50 rounded-xl p-8 text-center">
-                <div className="w-20 h-20 bg-[#1282eb] rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20 5C20.8284 5 21.5 5.67157 21.5 6.5V8.5C21.5 9.32843 20.8284 10 20 10C19.1716 10 18.5 9.32843 18.5 8.5V6.5C18.5 5.67157 19.1716 5 20 5Z"
-                      fill="white"
-                    />
-                    <path
-                      d="M10 20C10 14.4772 14.4772 10 20 10C25.5228 10 30 14.4772 30 20C30 25.5228 25.5228 30 20 30C14.4772 30 10 25.5228 10 20Z"
-                      fill="white"
-                      fillOpacity="0.3"
-                    />
-                    <path
-                      d="M15 35C15 33.8954 15.8954 33 17 33H23C24.1046 33 25 33.8954 25 35C25 36.1046 24.1046 37 23 37H17C15.8954 37 15 36.1046 15 35Z"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
-                  SDG 6: Clean Water and Sanitation
-                </h3>
-                <p className="font-inter text-[#61758a] leading-relaxed">
-                  Ensuring access to clean, safe, and affordable water for all
-                  through smart monitoring and management systems.
-                </p>
-              </div>
-
-              <div className="bg-green-50 rounded-xl p-8 text-center">
-                <div className="w-20 h-20 bg-[#10b981] rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="5"
-                      y="10"
-                      width="30"
-                      height="20"
-                      rx="3"
-                      fill="white"
-                    />
-                    <rect
-                      x="10"
-                      y="15"
-                      width="20"
-                      height="10"
-                      rx="2"
-                      fill="white"
-                      fillOpacity="0.5"
-                    />
-                    <circle cx="15" cy="20" r="2" fill="white" />
-                    <circle cx="25" cy="20" r="2" fill="white" />
-                    <rect
-                      x="12"
-                      y="30"
-                      width="16"
-                      height="5"
-                      rx="2"
-                      fill="white"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
-                  SDG 11: Sustainable Cities and Communities
-                </h3>
-                <p className="font-inter text-[#61758a] leading-relaxed">
-                  Building resilient urban water infrastructure that supports
-                  sustainable development and community well-being.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
+  </div>
+</section>
         {/* Our Solutions Section */}
-        <section className="py-20 bg-gray-50">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
-                Our Solutions
-              </h2>
-              <p className="font-inter font-normal text-lg text-[#61758a] max-w-3xl mx-auto">
-                Comprehensive water management solutions powered by cutting-edge
-                technology and designed for real-world applications.
-              </p>
-            </div>
+<section className="py-20 bg-gray-50">
+  <div className="max-w-6xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
+        Our Solutions
+      </h2>
+      <p className="font-inter font-normal text-lg text-[#61758a] max-w-3xl mx-auto">
+        Comprehensive water management solutions powered by cutting-edge
+        technology and designed for real-world applications.
+      </p>
+    </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-full h-40 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg mb-6 flex items-center justify-center">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle
-                      cx="30"
-                      cy="30"
-                      r="25"
-                      stroke="#1282eb"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <circle
-                      cx="30"
-                      cy="30"
-                      r="15"
-                      stroke="#1282eb"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <circle cx="30" cy="30" r="5" fill="#1282eb" />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-lg text-[#121417] mb-3">
-                  Borewell Monitoring
-                </h3>
-                <p className="font-inter text-[#61758a] text-sm leading-relaxed">
-                  Real-time monitoring of groundwater levels, quality, and
-                  pumping efficiency for sustainable extraction.
-                </p>
-              </div>
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Borewell Monitoring */}
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+        <div className="w-full h-40 mb-6 flex items-center justify-center">
+          <img
+            src="https://i.postimg.cc/HLGr2ht4/Depth-6-Frame-1-17.png" 
+            alt="Borewell Monitoring"
+            className="h-full object-contain"
+          />
+        </div>
+        <h3 className="font-inter font-bold text-lg text-[#121417] mb-3">
+          Borewell Monitoring
+        </h3>
+        <p className="font-inter text-[#61758a] text-sm leading-relaxed">
+          Real-time monitoring of groundwater levels, quality, and
+          pumping efficiency for sustainable extraction.
+        </p>
+      </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-full h-40 bg-gradient-to-br from-green-100 to-green-200 rounded-lg mb-6 flex items-center justify-center">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="15"
-                      y="15"
-                      width="30"
-                      height="30"
-                      rx="6"
-                      stroke="#10b981"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <rect
-                      x="22"
-                      y="22"
-                      width="16"
-                      height="16"
-                      rx="3"
-                      fill="#10b981"
-                    />
-                    <circle cx="30" cy="30" r="4" fill="white" />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-lg text-[#121417] mb-3">
-                  Water Quality Analysis
-                </h3>
-                <p className="font-inter text-[#61758a] text-sm leading-relaxed">
-                  Continuous monitoring of pH, turbidity, chlorine levels, and
-                  other critical water quality parameters.
-                </p>
-              </div>
+      {/* Water Quality Analysis */}
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+        <div className="w-full h-40 mb-6 flex items-center justify-center">
+          <img
+            src="https://i.postimg.cc/3wgdbFSM/Depth-6-Frame-1-19.png" 
+            alt="Water Quality Analysis"
+            className="h-full object-contain"
+          />
+        </div>
+        <h3 className="font-inter font-bold text-lg text-[#121417] mb-3">
+          Water Quality Analysis
+        </h3>
+        <p className="font-inter text-[#61758a] text-sm leading-relaxed">
+          Continuous monitoring of pH, turbidity, chlorine levels, and
+          other critical water quality parameters.
+        </p>
+      </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="w-full h-40 bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg mb-6 flex items-center justify-center">
-                  <svg
-                    width="60"
-                    height="60"
-                    viewBox="0 0 60 60"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10 30C10 20 20 10 30 10C40 10 50 20 50 30C50 40 40 50 30 50C20 50 10 40 10 30Z"
-                      stroke="#8b5cf6"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <path
-                      d="M20 30C20 25 25 20 30 20C35 20 40 25 40 30C40 35 35 40 30 40C25 40 20 35 20 30Z"
-                      fill="#8b5cf6"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-lg text-[#121417] mb-3">
-                  Water Flow Tracking
-                </h3>
-                <p className="font-inter text-[#61758a] text-sm leading-relaxed">
-                  Precise measurement and tracking of water flow rates across
-                  distribution networks and consumption points.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+      {/* Water Flow Tracking */}
+      <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center">
+        <div className="w-full h-40 mb-6 flex items-center justify-center">
+          <img
+            src="https://i.postimg.cc/s2hGprdJ/Depth-6-Frame-1-25.png" 
+            alt="Water Flow Tracking"
+            className="h-full object-contain"
+          />
+        </div>
+        <h3 className="font-inter font-bold text-lg text-[#121417] mb-3">
+          Water Flow Tracking
+        </h3>
+        <p className="font-inter text-[#61758a] text-sm leading-relaxed">
+          Precise measurement and tracking of water flow rates across
+          distribution networks and consumption points.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        {/* Use Cases Section */}
-        <section className="py-20 bg-white">
-          <div className="max-w-6xl mx-auto px-6">
-            <div className="text-center mb-16">
-              <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
-                Use Cases
-              </h2>
-              <p className="font-inter font-normal text-lg text-[#61758a] max-w-3xl mx-auto">
-                Our technology adapts to diverse environments and requirements,
-                serving various sectors with tailored solutions.
-              </p>
-            </div>
+         {/* Use Cases Section */}
+<section className="py-20 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="font-inter font-bold text-4xl text-[#121417] mb-6">
+        Use Cases
+      </h2>
+      <p className="font-inter font-normal text-lg text-[#61758a] max-w-3xl mx-auto">
+        Our technology adapts to diverse environments and requirements,
+        serving various sectors with tailored solutions.
+      </p>
+    </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5 35C5 30 10 25 15 25C20 25 25 30 25 35"
-                      stroke="#10b981"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <path
-                      d="M15 35C15 30 20 25 25 25C30 25 35 30 35 35"
-                      stroke="#10b981"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <circle cx="20" cy="20" r="3" fill="#10b981" />
-                    <circle cx="30" cy="15" r="2" fill="#10b981" />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
-                  Agriculture
-                </h3>
-                <p className="font-inter text-[#61758a] leading-relaxed">
-                  Optimize irrigation systems, monitor soil moisture, and ensure
-                  sustainable water usage for crop production.
-                </p>
-              </div>
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Agriculture */}
+      <div className="text-center">
+        <div className="w-30 h-30 mx-auto mb-6">
+          <img
+            src="https://i.postimg.cc/PJqJJsth/Depth-6-Frame-1-21.png" 
+            alt="Agriculture"
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
+          Agriculture
+        </h3>
+        <p className="font-inter text-[#61758a] leading-relaxed">
+          Optimize irrigation systems, monitor soil moisture, and ensure
+          sustainable water usage for crop production.
+        </p>
+      </div>
 
-              <div className="text-center">
-                <div className="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="10"
-                      y="25"
-                      width="20"
-                      height="10"
-                      rx="2"
-                      fill="#1282eb"
-                    />
-                    <rect
-                      x="12"
-                      y="15"
-                      width="16"
-                      height="12"
-                      rx="2"
-                      stroke="#1282eb"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <rect
-                      x="15"
-                      y="5"
-                      width="10"
-                      height="12"
-                      rx="2"
-                      stroke="#1282eb"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <circle cx="18" cy="8" r="1" fill="#1282eb" />
-                    <circle cx="22" cy="8" r="1" fill="#1282eb" />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
-                  Urban Water Supply
-                </h3>
-                <p className="font-inter text-[#61758a] leading-relaxed">
-                  Manage municipal water distribution, detect leaks early, and
-                  ensure reliable water supply to urban communities.
-                </p>
-              </div>
+      {/* Urban Water Supply */}
+      <div className="text-center">
+        <div className="w-30 h-30 mx-auto mb-6">
+          <img
+            src="https://i.postimg.cc/tJmTVST6/Depth-6-Frame-1-22.png" 
+            alt="Urban Water Supply"
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
+          Urban Water Supply
+        </h3>
+        <p className="font-inter text-[#61758a] leading-relaxed">
+          Manage municipal water distribution, detect leaks early, and
+          ensure reliable water supply to urban communities.
+        </p>
+      </div>
 
-              <div className="text-center">
-                <div className="w-24 h-24 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="5"
-                      y="20"
-                      width="30"
-                      height="15"
-                      rx="3"
-                      stroke="#8b5cf6"
-                      strokeWidth="2"
-                      fill="none"
-                    />
-                    <rect
-                      x="15"
-                      y="10"
-                      width="10"
-                      height="15"
-                      rx="2"
-                      fill="#8b5cf6"
-                    />
-                    <circle cx="12" cy="27" r="2" fill="#8b5cf6" />
-                    <circle cx="28" cy="27" r="2" fill="#8b5cf6" />
-                  </svg>
-                </div>
-                <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
-                  Industry
-                </h3>
-                <p className="font-inter text-[#61758a] leading-relaxed">
-                  Monitor industrial water usage, ensure compliance with
-                  regulations, and optimize water efficiency in manufacturing.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+      {/* Industry */}
+      <div className="text-center">
+        <div className="w-30 h-30 mx-auto mb-6">
+          <img
+            src="https://i.postimg.cc/8kys35HC/Depth-6-Frame-1-23.png" 
+            alt="Industry"
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <h3 className="font-inter font-bold text-xl text-[#121417] mb-4">
+          Industry
+        </h3>
+        <p className="font-inter text-[#61758a] leading-relaxed">
+          Monitor industrial water usage, ensure compliance with
+          regulations, and optimize water efficiency in manufacturing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        {/* Call to Action Section */}
-        <section className="py-20 bg-blue-meter-primary relative py-12">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="font-inter font-bold text-4xl text-white mb-6">
-              Build a Sustainable Water Future with Blue Meter
-            </h2>
-            <p className="font-inter font-normal text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join us in revolutionizing water management through AI, IoT, and
-              intelligent automation. Together, we can create a water-secure
-              world for future generations.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="px-8 py-3 bg-white text-blue-600 font-inter font-semibold rounded-full hover:bg-gray-100 transition-colors">
-                Schedule a Demo
-              </button>
-              <button className="px-8 py-3 border-2 border-white text-white font-inter font-semibold rounded-full hover:bg-white hover:text-blue-600 transition-colors">
-                Learn More
-              </button>
-            </div>
-          </div>
-        </section>
-
-        {/* Footer */}
         <footer className="py-20 bg-blue-meter-primary relative py-12">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-4 gap-8">

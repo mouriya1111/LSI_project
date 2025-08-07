@@ -63,7 +63,14 @@ const Index = () => {
             {/* Real-time Water Usage Card */}
             <div className="flex flex-col gap-4">
               <div className="h-[200px] lg:h-[265px] p-2.5 flex items-center bg-blue-meter-gray rounded-[14px]">
-                <div className="w-full h-full bg-[#4569A1] rounded-xl"></div>
+               <div className="h-[200px] lg:h-[265px] p-2.5 flex items-center bg-blue-meter-gray rounded-[14px]">
+                 <img
+    src="https://i.postimg.cc/g2LbS66W/Frame-11808808.png"
+    alt="Water usage graph"
+    className="w-full h-full object-cover rounded-xl"
+  />
+</div>
+
               </div>
               <div className="space-y-2">
                 <h3 className="font-inter font-medium text-base text-blue-meter-dark leading-6">
@@ -79,8 +86,12 @@ const Index = () => {
             {/* Instant Alerts Card */}
             <div className="flex flex-col gap-4">
               <div className="h-[200px] lg:h-[265px] p-2.5 flex items-center bg-blue-meter-gray rounded-[14px]">
-                <div className="w-full h-full bg-[#20ABBC] rounded-xl"></div>
-              </div>
+                 <img
+    src="https://i.postimg.cc/3wg575Bf/Frame-31.png"
+    alt="Water usage graph"
+    className="w-full h-full object-cover rounded-xl"
+  />
+</div>
               <div className="space-y-2">
                 <h3 className="font-inter font-medium text-base text-blue-meter-dark leading-6">
                   Instant Alerts
@@ -108,8 +119,11 @@ const Index = () => {
             {/* Node Mapping Card */}
             <div className="flex flex-col gap-4">
               <div className="h-[200px] lg:h-[250px] flex justify-center items-center bg-blue-meter-gray rounded-xl">
-                <div className="w-full h-full bg-[#CAD2D3] rounded-xl"></div>
-              </div>
+<img
+      src="https://i.postimg.cc/cCLVQKNP/Chat-GPT-Image-Jun-9-2025-01-22-51-PM-1-1.png" 
+      alt="Node Mapping"
+      className="w-full h-full object-cover rounded-xl"
+    />              </div>
               <div className="space-y-2">
                 <h3 className="font-inter font-medium text-base text-blue-meter-dark leading-6">
                   Node Mapping
@@ -125,8 +139,11 @@ const Index = () => {
             {/* Admin Dashboard Card */}
             <div className="flex flex-col gap-4">
               <div className="h-[200px] lg:h-[250px] flex justify-center items-center bg-blue-meter-gray rounded-xl">
-                <div className="w-full h-full bg-[#121217] rounded-xl"></div>
-              </div>
+<img
+      src="https://i.postimg.cc/QCYvSX8C/freepik-background-25320-1.png" // Replace with your actual Node Mapping image
+      alt="Node Mapping"
+      className="w-full h-full object-cover rounded-xl"
+    />              </div>
               <div className="space-y-2">
                 <h3 className="font-inter font-medium text-base text-blue-meter-dark leading-6">
                   Admin Dashboard
@@ -278,8 +295,11 @@ const Index = () => {
         {/* Empowering Every Resident */}
         <div className="min-h-[400px] lg:h-[520px] rounded-[24px] bg-white shadow-[4px_6px_0px_rgba(0,0,0,0.10),10px_15px_0px_rgba(0,0,0,0.10)] relative overflow-hidden">
           <div className="lg:absolute lg:right-40 lg:top-[61px] w-full lg:w-[245px] h-[200px] lg:h-[283px] p-6 lg:p-0">
-            <div className="w-full h-full bg-[#20ABBC] rounded-xl"></div>
-          </div>
+<img
+      src="https://i.postimg.cc/g2MF2HF8/img.png" // Replace with your actual Node Mapping image
+      alt="Node Mapping"
+      className="w-full h-full object-cover rounded-xl"
+    />          </div>
           <div className="lg:absolute lg:left-[71px] lg:top-[152px] w-full lg:w-[599px] p-6 lg:p-0 space-y-4">
             <h2 className="font-poppins font-bold text-xl lg:text-2xl text-blue-meter-dark-alt leading-tight">
               Empowering Every Resident
@@ -382,27 +402,24 @@ const Index = () => {
               </span>
             </div>
           </div>
-          <div className="lg:absolute lg:right-40 lg:top-[69px] w-full lg:w-[295px] h-[250px] lg:h-[326px] bg-[#CAD2D3] rounded-xl flex items-center justify-center mx-6 lg:mx-0 mt-6 lg:mt-0">
-            <svg
-              width="19"
-              height="26"
-              viewBox="0 0 19 26"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M9.1665 0C4.07379 0 -0.000366211 4.18679 -0.000366211 9.42028C-0.000366211 14.6538 4.07379 18.8406 9.1665 25.1207C14.2592 18.8406 18.3334 14.6538 18.3334 9.42028C18.3334 4.18679 14.2592 0 9.1665 0ZM9.1665 6.28019C10.8571 6.28019 12.2221 7.68291 12.2221 9.42028C12.2221 11.1576 10.8571 12.5604 9.1665 12.5604C7.47586 12.5604 6.11087 11.1576 6.11087 9.42028C6.11087 7.68291 7.47586 6.28019 9.1665 6.28019Z"
-                fill="#00113C"
-              />
-            </svg>
-          </div>
+          <div className="lg:absolute lg:right-40 lg:top-[69px] w-full lg:w-[295px] h-[250px] lg:h-[326px] rounded-xl flex items-center justify-center mx-6 lg:mx-0 mt-6 lg:mt-0">
+  <img
+    src="https://i.postimg.cc/hGwk94GG/Mapsicle-Map.png"
+    alt="Node Mapping"
+    className="w-full h-full object-cover rounded-xl"
+  />
+</div>
+
         </div>
 
         {/* Water Quality Sensor Calibration */}
         <div className="w-full min-h-[400px] lg:h-[465px] rounded-[24px] bg-white shadow-[4px_6px_0px_rgba(0,0,0,0.10),10px_15px_0px_rgba(0,0,0,0.10)] my-10 relative overflow-hidden">
           <div className="lg:absolute lg:right-40 lg:top-[68px] w-full lg:w-[263px] h-[250px] lg:h-[317px] p-6 lg:p-0">
-            <div className="w-full lg:w-[241px] h-full lg:h-[269px] bg-[#4B5563] rounded-xl lg:absolute lg:left-[22px] lg:top-0"></div>
-          </div>
+          <img
+      src="https://i.postimg.cc/0NbgMKP3/img-1.png"
+      alt="Water Quality Sensor"
+      className="w-full h-full object-cover rounded-xl lg:absolute lg:left-[22px] lg:top-0"
+    /></div>
           <div className="lg:absolute lg:left-[66px] lg:top-[94px] w-full lg:w-[493px] p-6 lg:p-0 space-y-4">
             <h2 className="font-poppins font-bold text-xl lg:text-2xl text-black leading-tight lg:leading-[30px]">
               Water Quality Sensor Calibration
